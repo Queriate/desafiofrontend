@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    position: relative;
+    background: var(--ciano-escuro);
+    color: var(--azul-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .top-bg {
+    position: absolute;
+    background: url("images/bg-pattern-top.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 978px;
+    width: 978px;
+    top: -528px;
+    left: -284px;
+  }
+  
+  .bottom-bg {
+    position: absolute;
+    background: url("images/bg-pattern-bottom.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 978px;
+    width: 978px;
+    bottom: -628px;
+    right: -250px;
+  }
