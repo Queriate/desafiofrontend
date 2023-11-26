@@ -1,0 +1,15 @@
+@media(max-width: 375px) {
+    .top-bg {
+      height: 375px;
+      width: 375px;
+      top: -160px;
+      left: -167px;
+    }
+  
+    .bottom-bg {
+      height: 375px;
+      width: 375px;
+      bottom: -79px;
+      right: -167px;
+    }
+  }
