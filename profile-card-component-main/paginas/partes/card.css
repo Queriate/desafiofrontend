@@ -1,0 +1,81 @@
+.card {
+    background: white;
+    font-size: 18px;
+    height: 376px;
+    width: 350px;
+    border-radius: 20px;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .card .bg-img {
+    height: 142px;
+    background: url("images/bg-pattern-card.svg");
+    border-radius: 20px 20px 0 0;
+    z-index: 99;
+  }
+  
+  .perfil .foto {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 94px;
+    background: white;
+    position: absolute;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .perfil .foto img {
+    border-radius: 50%;
+  }
+  
+  .perfil-info {
+    margin-top: 74px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .perfil {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--cinza-escuro);
+    padding-bottom: 25px;
+  }
+  
+  .status {
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .perfil .nome {
+    font-size: 20px;
+    margin-bottom: 13px;
+  }
+  
+  .perfil .nome span {
+    font-weight: 700;
+  }
+  
+  .perfil .local {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+  }
+  
+  .status p {
+    color: var(--cinza-escuro);
+  }
+  
+  .status .numero {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    color: var(--azul-escuro);
+  }
