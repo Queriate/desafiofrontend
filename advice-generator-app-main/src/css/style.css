@@ -1,0 +1,51 @@
+@import 'partials/reset.css';
+@import 'partials/variables.css';
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    padding: 0 3rem 2rem 3rem;
+}
+
+.advice {
+    color: var(--advice-dice-color);
+    font-size: .8rem;
+}
+
+.dice {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.dice-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--advice-dice-color);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    transform: translateY(165px);
+
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 400px;
+        height: 300px;
+    }
+
+    .pattern img{
+        max-width: 300px;
+    }
+   
+
+}
