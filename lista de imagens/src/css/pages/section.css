@@ -1,14 +1,64 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pinturas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;     
+}
+
 .pinturas .pintura{
     width: 335px;
     height: 431px;
     position: relative;
 }
 
+.pinturas .pintura img{
+    width: 100%;
+}
+
 .pinturas .pintura .informacoes{
     position: absolute;
-    background-color: aqua;
     bottom: 40px;
     left: 20px;
     color: #fff;
+
+}
+
+.pinturas .pintura .informacoes .titulo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media (max-width: 1440px){
+
+    .pinturas{
+        width: 900px;
+        margin: 30px 0;
+        gap: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
